@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RacerDrive.Plugins", "RacerDrive.Plugins.csproj", "{3A736F42-DD0D-3514-F0A5-B6C8E65F308F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RacerDrive", "RacerDrive.csproj", "{CBD0B53B-8670-D4FB-138E-B5ED2C3B132E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RacerDrive.Editor.Plugins", "RacerDrive.Editor.Plugins.csproj", "{5AD82B29-4F94-CB3B-5F49-BCEA35E84836}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A736F42-DD0D-3514-F0A5-B6C8E65F308F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A736F42-DD0D-3514-F0A5-B6C8E65F308F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A736F42-DD0D-3514-F0A5-B6C8E65F308F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A736F42-DD0D-3514-F0A5-B6C8E65F308F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBD0B53B-8670-D4FB-138E-B5ED2C3B132E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBD0B53B-8670-D4FB-138E-B5ED2C3B132E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBD0B53B-8670-D4FB-138E-B5ED2C3B132E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBD0B53B-8670-D4FB-138E-B5ED2C3B132E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AD82B29-4F94-CB3B-5F49-BCEA35E84836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD82B29-4F94-CB3B-5F49-BCEA35E84836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD82B29-4F94-CB3B-5F49-BCEA35E84836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD82B29-4F94-CB3B-5F49-BCEA35E84836}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

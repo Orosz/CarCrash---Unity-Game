@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/MainMenu.unity
+    guid: 54017eff163c21144bdde7ee5e34e32e
+  - enabled: 1
+    path: Assets/TrackSelect.unity
+    guid: e4b8ad33168324d44960fce905af7cdc
+  - enabled: 1
+    path: Assets/RaceTerrain02.unity
+    guid: b829bd5182d644340a1196577e381d49
+  - enabled: 1
+    path: Assets/RaceTerrain03.unity
+    guid: c0a1b891cbe6f7d49a226471251b69d1
