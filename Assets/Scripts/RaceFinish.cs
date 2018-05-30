@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.Vehicles.Car;
+using UnityEngine.SceneManagement;
 
 public class RaceFinish : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class RaceFinish : MonoBehaviour
     public GameObject CompleteTrig;
     public AudioSource FinishMusic;
 
-    void OnTriggerEnter()
+    IEnumerator OnTriggerEnter()
     {
         //Debug.Log("HAHA");
         this.GetComponent<BoxCollider>().enabled = false;
@@ -27,5 +28,8 @@ public class RaceFinish : MonoBehaviour
         LevelMusic.SetActive(false);
         ViewModes.SetActive(false);
         FinishMusic.Play();
+		//Return to main menu after race finish
+		yield return new WaitForSeconds(10);
+		SceneManager.LoadScene(0);
     }
 }

@@ -14,6 +14,7 @@
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
     <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.3.1f1</UnityVersion>
@@ -291,9 +292,12 @@
     <Compile Include="Assets\Scripts\ButtonOption.cs" />
     <Compile Include="Assets\Scripts\CameraChange.cs" />
     <Compile Include="Assets\Scripts\CameraStable.cs" />
+    <Compile Include="Assets\Scripts\CarChoice.cs" />
     <Compile Include="Assets\Scripts\Countdown.cs" />
     <Compile Include="Assets\Scripts\Dreamcar01Track.cs" />
     <Compile Include="Assets\Scripts\FinishRotate.cs" />
+    <Compile Include="Assets\Scripts\GlobalCar.cs" />
+    <Compile Include="Assets\Scripts\GlobalPoints.cs" />
     <Compile Include="Assets\Scripts\HalfPointTrigger.cs" />
     <Compile Include="Assets\Scripts\LapComplete.cs" />
     <Compile Include="Assets\Scripts\LapTimeManager.cs" />

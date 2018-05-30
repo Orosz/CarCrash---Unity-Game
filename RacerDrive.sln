@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RacerDrive.Plugins", "RacerDrive.Plugins.csproj", "{3A736F42-DD0D-3514-F0A5-B6C8E65F308F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RacerDrive", "RacerDrive.csproj", "{CBD0B53B-8670-D4FB-138E-B5ED2C3B132E}"

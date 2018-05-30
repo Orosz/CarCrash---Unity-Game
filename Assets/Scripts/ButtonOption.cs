@@ -5,12 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class ButtonOption : MonoBehaviour {
 
-    public void PlayGame ()
+    public void QuickGame ()
     {
         SceneManager.LoadScene(2);
     }
 
-    public void TrackSelect ()
+    public void NewGame ()
     {
         SceneManager.LoadScene(1);
     }
